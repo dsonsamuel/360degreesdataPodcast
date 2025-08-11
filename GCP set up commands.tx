@@ -1,0 +1,12 @@
+apt-get update
+
+apt-get install -yq git supervisor python python-pip python3-distutils
+
+sudo python3 -m venv <your_env_name>
+source <your_env_name>/bin/activate
+
+which python
+
+sudo <path_to_python> -m pip install -r streamlit
+
+
